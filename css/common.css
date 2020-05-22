@@ -123,7 +123,6 @@ button:hover {cursor:pointer;}
   clear: both;
 }
 
-.row {max-width: ;}
 #shop {max-width: 1800px; margin: 0 auto;}
 #shop .gallery li {float: left; width:23%; height: 585px;
 margin: 40px 1%; position: relative; overflow: hidden;}
@@ -136,22 +135,6 @@ position: relative;}
 font-size: 18px; color:rgba(0,0,0,0.8);}
   #shop .gallery li:hover:after  {top:90%; }
 
-.depth1 {
-  position: relative;
-}
-.depth2 {display: none;
-position: absolute;
-top:100%;
-left:0;}
-.depth2 > li {
-  display: block;
-}
-
-.depth1 li:hover .depth2 {
-  display: block;
-}
-
-
 body, html, #wrap {height: 100%;}
 #header {background: url(../img/back312.png) no-repeat center ;
 background-size: cover; height:100%;}
@@ -160,32 +143,44 @@ background-size: cover; height:100%;}
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#000;  font-weight: normal; font-family: 'Raleway', 'sans-serif';
 background: rgb(247, 143, 143);}
+.header_cont .util > li a {display: block;}
+.header_cont .depth1 > li a {display: block;}
 
-.header_cont { padding:20px 9.5%; background: rgba(255, 237, 237, 0.8);}
+.header_cont { padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
+.header_cont .util {float: right; font-size: 18px;}
+.header_cont .util > li,
+.header_cont .depth1 > li
+{display: inline-block; color:#000; height: 57px; line-height: 57px;
+padding:0px 20px; font-family: 'Raleway', 'sans-serif'; font-weight: bold;
+position: relative; text-align: center;}
+.header_cont .util > li {padding:0 15px}
 
-.header_cont .util {float: right;}
-.header_cont li {display: inline-block; padding-left:10px; color:#000;
-  padding-right: 20px; font-family: 'Raleway', 'sans-serif'; font-weight: bold;}
-  /*영어만 먹히고 한글은 안먹혔음*/
-nav {float:left;} 
-nav li {display: inline-block; padding-right: 20px;}
+.depth1 {font-size: 17px;}
+.depth2 {display: none;position: absolute; font-size: 16px; font-weight: bold;
+top:57px; left: 0; width: 100%; text-align: center;background: rgba(255, 237, 237, 0.8);)
+font-family: 'Raleway', 'sans-serif';}
+.depth2 > li {height: 50px; line-height: 50px; color: black;}
+
 .header_cont .util li:hover {color:rgb(131, 29, 29); transition: all 0.5s;
 transform: scale(1.2); cursor: pointer;}
+.depth1 > li:hover {color: coral; transition: all 0.5s; cursor: pointer;}
+.depth1 > li:hover .depth2 {display: block;}  
+.depth2 li:hover {color: #fff; background: rgb(255, 163, 130);}
 
+nav {float:left;}
 
-
-.message p {font-size: 75px; color:white; 
-  text-shadow: 1px 1px 4px brown, -1px -1px 4px brown;}
-.message p:nth-child(1){padding-top: 350px; padding-left: 130px;}
-.message p:nth-child(2){padding-top: 20px; padding-left: 160px;}
+.message p {font-size: 100px; color:white; 
+  text-shadow: 1px 1px 3px brown, -1px -1px 3px brown;}
+.message p:nth-child(1){padding-top: 350px; padding-left: 100px;}
+.message p:nth-child(2){padding-top: 20px; padding-left: 150px;}
 .message p:nth-child(3){padding-top: 20px; padding-left: 210px;}
 
 
-#shop h2 {text-align: center; font-size: 53px; font-family:'Raleway', 'sans-serif';
+#shop h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
 padding-top: 70px; padding-bottom: 60px; color: rgb(67, 148, 151);}
 
 #about {position: relative;}
-#about h2 {text-align: center; font-size: 55px; font-family:'Raleway', 'sans-serif';
+#about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 #about > p {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
  padding: 50px; color: #666; line-height:38px;}
@@ -210,14 +205,17 @@ border-radius: 50%; position: absolute; top: 800px; left:300px}
 .way {background:url(../img/back73.png) no-repeat center; 
 background-size: cover; padding: 180px 0; 
 background-attachment: fixed;}
-.way h2 {text-align: center; font-size: 55px; padding-top:50px;
-  font-family: 'Jua', sans-serif}
-.way .address {float: left; font-size: 18px; line-height: 28px;
-  font-family: 'Jua', sans-serif;  padding-left: 50px; margin-top: 80px;}
-.way .map {float: right; position: relative; top: 20px; left: 15px;}
-.way .waybox {width:760px; margin: 0 auto; background:rgba(209, 209, 209,0.3);
-  position: relative; border-radius: 30px; padding-bottom: 50px;}
-i {padding-right: 10px;}
+.way h2 {text-align: center; font-size: 65px; padding-top: 40px;
+  font-family: 'Jua', sans-serif;color: #fff; letter-spacing: 5px;
+  text-shadow: 1px 1px black, -1px -1px gray;}
+.way .address {float: left; font-size: 18px; line-height: 28px; 
+  font-family: 'Jua', sans-serif;  padding:55px 0px 0px 55px; color: #fff;
+  text-shadow: 1px 1px black, -1px -1px gray;
+position: relative; top: 10px;}
+.way .map {float: right; position: relative; top: 30px; left:15px;}
+.way .waybox {width:760px; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
+  position: relative; border-radius: 5px; padding-bottom: 70px;}
+i {padding-right: 10px; display: inline-block; width:30px; text-align: center;}
 .footer p {background: rgba(255, 204, 108,0.5); font-size: 16px;
 color: rgb(41, 41, 41); text-align: center; height: 80px;
 padding-top: 30px;}
