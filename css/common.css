@@ -1,0 +1,223 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+/* reset element */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+address,
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 건너뛰기 링크(접근성) */
+.skipnav a {
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  z-index: 99999;
+}
+
+.skipnav a:focus,
+.skipnav a:active {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+/* 비장애인들한테는 보일 필요가 없는 컨텐츠이지만,
+ 장애인들한테는 인식돼야 할 컨텐츠에 붙이는 클래스 */
+.blind {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 테이블의 제목과 폼의 그룹화 요소 제목은 안보이게 처리함 */
+caption,
+legend {
+  display: none
+}
+fieldset {border: none;}
+input,select {vertical-align: middle;}
+input[type='submit']:hover,
+input[type='reset']:hover,
+button:hover {cursor:pointer;}
+
+/* 자식들이 float 속성을 가질때 부모의 높이가 무너지므로 .cf로 해결함 */
+.cf:after,
+.cf:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row {max-width: ;}
+#shop {max-width: 1800px; margin: 0 auto;}
+#shop .gallery li {float: left; width:23%; height: 585px;
+margin: 40px 1%; position: relative; overflow: hidden;}
+#shop .gallery li img {width: 100%; transition: all 0.5s;
+position: relative;}
+#shop .gallery li:hover img {transform: scale(1.3);}
+#shop .gallery li:after {content:"Quick view"; position:absolute; top:100%;
+  left:0%;bottom:0%;right:0%; background: rgba(251, 201, 153, 0.8);
+  transition: all 0.5s; text-align: center;line-height: 55px;
+font-size: 18px; color:rgba(0,0,0,0.8);}
+  #shop .gallery li:hover:after  {top:90%; }
+
+.depth1 {
+  position: relative;
+}
+.depth2 {display: none;
+position: absolute;
+top:100%;
+left:0;}
+.depth2 > li {
+  display: block;
+}
+
+.depth1 li:hover .depth2 {
+  display: block;
+}
+
+
+body, html, #wrap {height: 100%;}
+#header {background: url(../img/back312.png) no-repeat center ;
+background-size: cover; height:100%;}
+
+.hdinner {position: fixed; width: 100%; top: 0; left: 0; z-index: 999999;}
+h1 {text-align: center; font-size: 60px; padding: 30px;
+ color:#000;  font-weight: normal; font-family: 'Raleway', 'sans-serif';
+background: rgb(247, 143, 143);}
+
+.header_cont { padding:20px 9.5%; background: rgba(255, 237, 237, 0.8);}
+
+.header_cont .util {float: right;}
+.header_cont li {display: inline-block; padding-left:10px; color:#000;
+  padding-right: 20px; font-family: 'Raleway', 'sans-serif'; font-weight: bold;}
+  /*영어만 먹히고 한글은 안먹혔음*/
+nav {float:left;} 
+nav li {display: inline-block; padding-right: 20px;}
+.header_cont .util li:hover {color:rgb(131, 29, 29); transition: all 0.5s;
+transform: scale(1.2); cursor: pointer;}
+
+
+
+.message p {font-size: 75px; color:white; 
+  text-shadow: 1px 1px 4px brown, -1px -1px 4px brown;}
+.message p:nth-child(1){padding-top: 350px; padding-left: 130px;}
+.message p:nth-child(2){padding-top: 20px; padding-left: 160px;}
+.message p:nth-child(3){padding-top: 20px; padding-left: 210px;}
+
+
+#shop h2 {text-align: center; font-size: 53px; font-family:'Raleway', 'sans-serif';
+padding-top: 70px; padding-bottom: 60px; color: rgb(67, 148, 151);}
+
+#about {position: relative;}
+#about h2 {text-align: center; font-size: 55px; font-family:'Raleway', 'sans-serif';
+color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
+#about > p {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
+ padding: 50px; color: #666; line-height:38px;}
+#about .img_box img:nth-child(1) {position: relative; top:-80px; left:50px;}
+#about .img_box img:nth-child(2) {position: relative; top:-10px; left:30px;}
+#about .img_box img:nth-child(3) {position: relative; top:-40px; left:-40px;}
+#about .img_box {padding-bottom: 125px;}
+
+.won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
+border-radius: 50%; position: absolute; top:400px; left:300px;}
+.won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
+  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+.won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
+border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+.won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
+  border-radius: 50%; position: absolute; top:870px; left:300px;}
+.won4 {width: 100px; height: 100px; background:#ffd9cb; 
+border-radius: 50%; position: absolute; top: 800px; left:300px}
+.won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:990px; right:780px;}
+
+.way {background:url(../img/back73.png) no-repeat center; 
+background-size: cover; padding: 180px 0; 
+background-attachment: fixed;}
+.way h2 {text-align: center; font-size: 55px; padding-top:50px;
+  font-family: 'Jua', sans-serif}
+.way .address {float: left; font-size: 18px; line-height: 28px;
+  font-family: 'Jua', sans-serif;  padding-left: 50px; margin-top: 80px;}
+.way .map {float: right; position: relative; top: 20px; left: 15px;}
+.way .waybox {width:760px; margin: 0 auto; background:rgba(209, 209, 209,0.3);
+  position: relative; border-radius: 30px; padding-bottom: 50px;}
+i {padding-right: 10px;}
+.footer p {background: rgba(255, 204, 108,0.5); font-size: 16px;
+color: rgb(41, 41, 41); text-align: center; height: 80px;
+padding-top: 30px;}
