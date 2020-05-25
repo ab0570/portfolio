@@ -122,24 +122,26 @@ button:hover {cursor:pointer;}
   display: block;
   clear: both;
 }
+.openMOgnb {display: none;}
+.closeMOgnb {display: none;}
 
 #shop {max-width: 1800px; margin: 0 auto;}
-#shop .gallery li {float: left; width:23%; height: 585px;
+#shop .gallery li {float: left; width:23%; height: 34.4997%;
 margin: 40px 1%; position: relative; overflow: hidden;}
 #shop .gallery li img {width: 100%; transition: all 0.5s;
 position: relative;}
 #shop .gallery li:hover img {transform: scale(1.3);}
 #shop .gallery li:after {content:"Quick view"; position:absolute; top:100%;
   left:0%;bottom:0%;right:0%; background: rgba(251, 201, 153, 0.8);
-  transition: all 0.5s; text-align: center;line-height: 55px;
+  transition: all 0.5s; text-align: center; padding-top: 5%;
 font-size: 18px; color:rgba(0,0,0,0.8);}
-  #shop .gallery li:hover:after  {top:90%; }
+#shop .gallery li:hover:after  {top:90%; }
 
 body, html, #wrap {height: 100%;}
 #header {background: url(../img/back312.png) no-repeat center ;
-background-size: cover; height:100%;}
+background-size: cover; height:100%; position: relative;}
 
-.hdinner {position: fixed; width: 100%; top: 0; left: 0; z-index: 999999;}
+/* .hdinner {position: fixed; width: 100%; top: 0; left: 0; z-index: 999999;} */
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif';
@@ -170,6 +172,7 @@ transform: scale(1.2); cursor: pointer;}
 
 nav {float:left;}
 
+.message {position: absolute; top: 0; left: 0;}
 .message p {font-size: 100px; color:white; 
   text-shadow: 1px 1px 3px brown, -1px -1px 3px brown;}
 .message p:nth-child(1){padding-top: 350px; padding-left: 100px;}
