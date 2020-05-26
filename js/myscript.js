@@ -6,6 +6,12 @@ function init(){
   } else {
      $('html').addClass('mobile').removeClass('minTb')
      $('.header_cont').removeClass('on')
+     $('h1').css({
+      position:'fixed',
+      top:0, 
+      width:'100%',
+      zIndex:99999
+    })
   }
 }
 
@@ -27,6 +33,11 @@ if ($('html').hasClass('minTb')) {
        width:'100%',
        zIndex:99999
     })
+  
+    $('h1').css({
+      position:'static'   
+    })
+
   } else {
    $('.header_cont').css({
       position:'static'
