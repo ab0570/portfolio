@@ -2,7 +2,12 @@ function init(){
   var winWidth =$(window).width()
   if (winWidth > 1024) {
      $('html').addClass('minTb').removeClass('mobile')
-     $('.header_cont').addClass('on')
+       $('.header_cont').css({
+        position:'fixed',
+        top:'120px', 
+        width:'100%',
+        zIndex:99999
+       })
   } else {
      $('html').addClass('mobile').removeClass('minTb')
      $('.header_cont').removeClass('on')
@@ -26,17 +31,21 @@ $(window).load(function(){
 $(window).scroll(function(){
   var qw = $(this).scrollTop()
 if ($('html').hasClass('minTb')) {
-  if(qw > 120){
-    $('.header_cont').css({
-       position:'fixed',
-       top:0, 
-       width:'100%',
-       zIndex:99999
-    })
-  
+  if(qw > 180){
     $('h1').css({
       position:'static'   
     })
+
+    $('.header_cont').css({
+       position:'fixed',
+       top:'120px', 
+       width:'100%',
+       zIndex:99999
+    }).delay(200).css({
+      top:0
+    })
+  
+   
 
   } else {
    $('.header_cont').css({
@@ -90,6 +99,8 @@ $('.depth1 > li').eq(3).on('click',function(){
 })
 
 $('.depth1 > li').eq(0).on('click',function(){
-  $('body,html').animate({scrollTop:'0px'},800)
+  $('body,html').animate({scrollTop:'0px'},900)
 })
+
+
 
