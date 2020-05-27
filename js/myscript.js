@@ -45,7 +45,6 @@ if ($('html').hasClass('minTb')) {
       top:0
     })
   
-   
 
   } else {
    $('.header_cont').css({
@@ -101,6 +100,7 @@ $('.depth1 > li').eq(3).on('click',function(){
 $('.depth1 > li').eq(0).on('click',function(){
   $('body,html').animate({scrollTop:'0px'},900)
 })
+
 
 
 

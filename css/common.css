@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 h1,
@@ -152,7 +151,9 @@ background: rgb(247, 143, 143);}
 
 .header_cont { padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont .util {float: right; font-size: 18px;}
+.header_cont .sns {float: right; }
 .header_cont .util > li,
+.sns > li,
 .header_cont .depth1 > li
 {display: inline-block; color:#000; height: 57px; line-height: 57px;
 padding:0px 20px; font-family: 'Raleway', 'sans-serif'; font-weight: bold;
@@ -167,6 +168,8 @@ font-family: 'Raleway', 'sans-serif';}
 
 .header_cont .util li:hover {color:rgb(131, 29, 29); transition: all 0.5s;
 transform: scale(1.2); cursor: pointer;}
+.header_cont .sns li:hover {color:rgb(131, 29, 29); transition: all 0.5s;
+  transform: scale(1.2); cursor: pointer;}
 .depth1 > li:hover {color: coral; transition: all 0.5s; cursor: pointer;}
 .depth1 > li:hover .depth2 {display: block;}  
 .depth2 li:hover {color: #fff; background: rgb(255, 163, 130);}

@@ -20,10 +20,9 @@ nav {float:none; padding-bottom: 25px;}
 padding:0px 20px; font-family: 'Raleway', 'sans-serif'; font-weight: bold;
 position: relative; text-align: center; font-size: 20px;}
 .header_cont .util > li {padding:0 15px}
-.header_cont .util > li:nth-child(3),
-.header_cont .util > li:nth-child(4),
-.header_cont .util > li:nth-child(5)
-{position: fixed; top: 0; left: 0; z-index: 999999; display: block;}
+.header_cont .sns {position: fixed; top: 35px; right:100px; z-index: 999999;
+   display: block;}
+.header_cont .sns > li{padding: 0 7px; font-size: 20px; color: #333;}  
 
 
 .openMOgnb {display:block; position: fixed; top:50px; right:30px; 
