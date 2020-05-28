@@ -101,6 +101,22 @@ $('.depth1 > li').eq(0).on('click',function(){
   $('body,html').animate({scrollTop:'0px'},900)
 })
 
+$('.gallery>li>a').on('click',function(e){
+  e.preventDefault();
+  var top = $(this).parent().offset().top
+  var href = $(this).attr('href')
+  var src = $(this).attr('data-src')
+  var alt = $(this).find('img').attr('alt')
+ $('.popupBox').addClass('on')
+ $('.popupBox .inner').css({
+  top:top-200
+})
+ $('.popupBox .inner div a').attr('href',href)
+ $('.popupBox .inner div img').attr('src',src).attr('alt',alt)
+})
 
+$('.popupBox button').on('click',function(){
+   $(this).parents('.popupBox').removeClass('on')
+})
 
 
