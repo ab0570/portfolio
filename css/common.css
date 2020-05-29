@@ -124,6 +124,7 @@ button:hover {cursor:pointer;}
 }
 .openMOgnb {display: none;}
 .closeMOgnb {display: none;}
+body, html, #wrap {height: 100%;}
 
 #shop {max-width: 1800px; margin: 0 auto;}
 #shop .gallery li {float: left; width:23%; height: 34.4997%;
@@ -140,7 +141,7 @@ font-size: 18px; color:rgba(0,0,0,0.8);}
 .popupBox {display: none;}
 .popupBox.on {
   display: block; position: absolute; top: 0; left: 0; right: 0;
-  height: 488%; background: rgba(0,0,0,0.5); z-index: 9999999999999;}
+  height: 498%; background: rgba(0,0,0,0.5); z-index: 9999999999999;}
 .popupBox.on .inner {position: absolute; top: 0; left: 50%;
   transform: translate(-50%);background: #fff; text-align:center;
 padding:20px 30px 30px 30px;}
@@ -148,10 +149,8 @@ padding:20px 30px 30px 30px;}
 .popupBox.on button {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
 
-body, html, #wrap {height: 100%;}
 #header {background: url(../img/back312.png) no-repeat center ;
 background-size: cover; height:100%; position: relative;}
-
 /* .hdinner {position: fixed; width: 100%; top: 0; left: 0; z-index: 999999;} */
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;

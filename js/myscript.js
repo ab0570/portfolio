@@ -119,4 +119,18 @@ $('.popupBox button').on('click',function(){
    $(this).parents('.popupBox').removeClass('on')
 })
 
-
+// setInterval(function(){
+//   $('.won1').animate({
+//     top:'40px',
+//     left:'30px'
+//   },900).animate({
+//     top:'50px',
+//     left:'40px'
+//   },900).animate({
+//     top:'-45px',
+//     left:'-35px'
+//   },900).animate({
+//     top:'-35px',
+//     left:'-25px'
+//   },900)
+// }, 1000);
