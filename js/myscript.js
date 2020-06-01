@@ -30,6 +30,7 @@ function init(){
       width:'100%',
       zIndex:99999
     })
+  $('#header .openMOgnb').show()
   }
 }
 
