@@ -1,3 +1,4 @@
+
 function init(){
   var winWidth =$(window).width()
   if (winWidth > 1024) {
@@ -89,12 +90,12 @@ $('#header .closeMOgnb').on('click',function(){
 
 $('.depth1 > li').eq(2).on('click',function(){
    var sh = $('#shop').offset().top
-   $('body,html').animate({scrollTop:sh},600)
+   $('body,html').animate({scrollTop:sh},900)
 })
 
 $('.depth1 > li').eq(3).on('click',function(){
   var sh = $('#about').offset().top
-  $('body,html').animate({scrollTop:sh},600)
+  $('body,html').animate({scrollTop:sh},1100)
 })
 
 $('.depth1 > li').eq(0).on('click',function(){
@@ -119,18 +120,3 @@ $('.popupBox button').on('click',function(){
    $(this).parents('.popupBox').removeClass('on')
 })
 
-// setInterval(function(){
-//   $('.won1').animate({
-//     top:'40px',
-//     left:'30px'
-//   },900).animate({
-//     top:'50px',
-//     left:'40px'
-//   },900).animate({
-//     top:'-45px',
-//     left:'-35px'
-//   },900).animate({
-//     top:'-35px',
-//     left:'-25px'
-//   },900)
-// }, 1000);
