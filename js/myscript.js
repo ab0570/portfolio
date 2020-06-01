@@ -1,14 +1,26 @@
 
 function init(){
   var winWidth =$(window).width()
+  var sct =$('body,html').scrollTop()
   if (winWidth > 1024) {
      $('html').addClass('minTb').removeClass('mobile')
-       $('.header_cont').css({
+     if(sct >=0 && sct < 120) {
+       $('h1').css({position:'fixed',top:0, width:'100%', zIndex:9999})
+      $('.header_cont').css({
         position:'fixed',
         top:'120px', 
         width:'100%',
         zIndex:99999
        })
+     } else {
+      $('h1').css({position:'static',top:0, width:'100%', zIndex:99999})
+      $('.header_cont').css({
+        position:'fixed',
+        top:'0px', 
+        width:'100%',
+        zIndex:99999
+       })
+     }
   } else {
      $('html').addClass('mobile').removeClass('minTb')
      $('.header_cont').removeClass('on')
@@ -28,11 +40,11 @@ $(window).resize(function(){
 $(window).load(function(){
   init()
 })
-
+var qw;
 $(window).scroll(function(){
-  var qw = $(this).scrollTop()
+ qw = $(this).scrollTop()
 if ($('html').hasClass('minTb')) {
-  if(qw > 180){
+  if(qw > 120){
     $('h1').css({
       position:'static'   
     })
@@ -45,9 +57,10 @@ if ($('html').hasClass('minTb')) {
     }).delay(200).css({
       top:0
     })
-  
-
   } else {
+    $('h1').css({
+      position:'static'
+    })
    $('.header_cont').css({
       position:'static'
    })

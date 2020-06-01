@@ -213,7 +213,7 @@ color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
 border-radius: 50%; position: absolute; top:400px; left:300px;}
 .won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+  border-radius: 50%; position: absolute;; top: 550px; right: 300px;}
 .won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
 border-radius: 50%; position: absolute; top: 400px; right: 250px;}
 .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
