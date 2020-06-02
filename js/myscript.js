@@ -63,7 +63,8 @@ if ($('html').hasClass('minTb')) {
       position:'static'
     })
    $('.header_cont').css({
-      position:'static'
+      position:'static',
+      display:'block'
    })
   }
 } else {
@@ -134,3 +135,21 @@ $('.popupBox button').on('click',function(){
    $(this).parents('.popupBox').removeClass('on')
 })
 
+$('.visualRoll').slick({
+  autoplay:true, //기본값  false
+  autoplaySpeed:3000, // 슬라이드 지연시간
+  dots:true, // 기본값 false,슬라이드 번호버튼
+  speed:600, // 슬라이드 동작시간
+  slidesToShow:1, //보여지는 슬라이드 수
+  slidesToScroll:1, // 넘어가는 슬라이드수
+  pauseOnHover:false, // 슬라이드위에 마우스오버시 슬라이드멈춤여부
+  pauseOnDotsHover:true, // 슬라이드 번호버튼위에 마우스오버시 멈춤여부
+  pauseOnFocus:false, // 번호버튼 클릭시 자동실행 멈춤여부
+  cssEase:'linear', // 슬라이드 움직임에 대한 가속도 함수값
+  draggable:true, // 마우스드래그했을때 움직임 여부
+  fade:false, //true면 fadein,out 효과가 적용됌.
+  arrows:true, // 기본값은 true고, 슬라이즈 좌우측 방향버튼
+  prevArrow: '<button class="prevArrow marrow"><i class="fas fa-angle-left"></i></button>',
+  nextArrow: '<button class="nextArrow marrow"><i class="fas fa-angle-right"></i></button>',
+  
+})

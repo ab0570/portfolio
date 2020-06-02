@@ -149,10 +149,19 @@ padding:20px 30px 30px 30px;}
 .popupBox.on button {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
 
-#header {background: url(../img/back312.png) no-repeat center ;
-background-size: cover; height:100%; position: relative;}
+#header {height:100%; position: relative;}
+.main_pc {position: relative; height: 100%;}
+.visualRoll {height: 100%;}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:1000px; position: relative;}
+.slide2 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:1000px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:1000px; position: relative;}
 
-/* .hdinner {position: fixed; width: 100%; top: 0; left: 0; z-index: 999999;} */
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif';
@@ -184,15 +193,28 @@ transform: scale(1.2); cursor: pointer;}
 .depth1 > li:hover {color: coral; transition: all 0.5s; cursor: pointer;}
 .depth1 > li:hover .depth2 {display: block;}  
 .depth2 li:hover {color: #fff; background: rgb(255, 163, 130);}
-
 nav {float:left;}
 
-.message {position: absolute; top: 0; left: 0;}
-.message p {font-size: 100px; color:white; 
+.main_rolling_pc {position: relative;}
+.marrow {position: absolute; top: 50%; transform: translateY(-50%);
+background: none; border: none; font-size: 60px; color: #fff;}
+.prevArrow {left: 30px; z-index: 999999;}
+.nextArrow {right: 30px;}
+.slick-dots {position: absolute; bottom: 20px; width: 100%;
+text-align: center;}
+.slick-dots li {display: inline-block;}
+.slick-dots li button {width: 15px; height: 15px; background: #fff;
+border:none; text-indent: -99999px; overflow: hidden; border-radius: 50%;
+margin: 0 5px;}
+.slick-dots li.slick-active button {width: 30px; border-radius: 50px;}
+.plpa {position: absolute; bottom: 19px; background: none; border: none;
+font-size: 15px; color: #fff; right: 0; width: 50%; text-align: left;
+padding-left: 60px;}
+
+.message {position: absolute; top:500px; left: 0;}
+.message p {font-size: 80px; color:white; 
   text-shadow: 1px 1px 3px brown, -1px -1px 3px brown;}
-.message p:nth-child(1){padding-top: 350px; padding-left: 100px;}
-.message p:nth-child(2){padding-top: 20px; padding-left: 150px;}
-.message p:nth-child(3){padding-top: 20px; padding-left: 210px;}
+
 
 
 #shop h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
