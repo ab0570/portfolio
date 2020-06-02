@@ -2,12 +2,22 @@
 
 @media screen and (max-width:1024px) {
 body,html,#wrap {height: auto;}  
-h1 {text-align: left; font-size: 60px; padding: 30px;
-      color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
-      font-family: 'Raleway', 'sans-serif';
-      background: rgb(247, 143, 143);}
-#header {background: url(../img/back312.png) no-repeat center ;
- background-size: cover; height:600px; position: relative;}
+.main_pc {position: relative; width:100%;}
+.visualRoll {}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
+.slide2 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
+h1 {text-align: center; font-size: 60px; padding: 30px;
+ color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
+ font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
+background: rgb(247, 143, 143);}
+#header {height:900px; position: relative;}
 .header_cont {display: none; padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont.on {display: block;}
 .header_cont .util {float: none; font-size: 18px; text-align: center;}
@@ -137,12 +147,22 @@ padding-top: 30px;}
 }
 
 @media screen and (max-width:799px) {
-  h1 {text-align: left; font-size: 50px; padding: 35px 30px 30px; height: 120px;
-    color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
-    font-family: 'Raleway', 'sans-serif';
-    background: rgb(247, 143, 143);}
-  #header {background: url(../img/back312.png) no-repeat center ;
-      background-size: cover; height:600px; position: relative;}
+.main_pc {position: relative; width:100%;}
+.visualRoll {}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
+.slide2 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
+h1 {text-align: center; font-size: 60px; padding: 30px;
+ color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
+ font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
+background: rgb(247, 143, 143);}
+#header {height:850px; position: relative;}
 .header_cont {display: none; padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont.on {display: block;}
 
