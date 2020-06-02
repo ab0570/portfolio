@@ -49,29 +49,20 @@ if ($('html').hasClass('minTb')) {
     $('h1').css({
       position:'static'   
     })
-
-    // $('.header_cont').css({
-    //    position:'fixed',
-    //    top:'120px', 
-    //    width:'100%',
-    //    zIndex:99999
-    // }).delay(200).css({
-    //   top:0
-    // })
 $('.header_cont').css({
        position:'fixed',
        top:'0px', 
        width:'100%',
        zIndex:99999
     })
-
-
-  } else {
-    // $('h1').css({
-    //   position:'static'
-    // })
+    } else {
+    $('h1').css({
+      position:'fixed',
+      top:'0px'
+    })
    $('.header_cont').css({
-      top:'120px',
+     position:'fixed',
+      top:'120px'
    })
   }
 } else {
