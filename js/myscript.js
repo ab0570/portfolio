@@ -50,21 +50,28 @@ if ($('html').hasClass('minTb')) {
       position:'static'   
     })
 
-    $('.header_cont').css({
+    // $('.header_cont').css({
+    //    position:'fixed',
+    //    top:'120px', 
+    //    width:'100%',
+    //    zIndex:99999
+    // }).delay(200).css({
+    //   top:0
+    // })
+$('.header_cont').css({
        position:'fixed',
-       top:'120px', 
+       top:'0px', 
        width:'100%',
        zIndex:99999
-    }).delay(200).css({
-      top:0
     })
+
+
   } else {
-    $('h1').css({
-      position:'static'
-    })
+    // $('h1').css({
+    //   position:'static'
+    // })
    $('.header_cont').css({
-      position:'static',
-      display:'block'
+      top:'120px',
    })
   }
 } else {
