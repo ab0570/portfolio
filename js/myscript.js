@@ -78,6 +78,14 @@ $('.header_cont').css({
     zIndex:99999
   })
 }
+var top = $('.gallery').offset().top+$('.gallery').height()-10
+console.log(top, qw)
+if (qw >= top) {
+  $('#about > p:nth-of-type(1)').css({
+    animation:"fadeIn 1s both 2s"
+  })
+}
+
 })
 
 $('#header .openMOgnb').on('click',function(){
@@ -109,7 +117,7 @@ $('.depth1 > li').eq(2).on('click',function(){
 $('.depth1 > li').eq(3).on('click',function(){
   var sh = $('#about').offset().top
   $('body,html').animate({scrollTop:sh},1100)
-  
+
 })
 
 $('.depth1 > li').eq(0).on('click',function(){
