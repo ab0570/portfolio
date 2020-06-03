@@ -135,9 +135,9 @@ $('.popupBox button').on('click',function(){
 
 $('.visualRoll').slick({
   autoplay:true, //기본값  false
-  autoplaySpeed:3000, // 슬라이드 지연시간
+  autoplaySpeed:2500, // 슬라이드 지연시간
   dots:true, // 기본값 false,슬라이드 번호버튼
-  speed:600, // 슬라이드 동작시간
+  speed:800, // 슬라이드 동작시간
   slidesToShow:1, //보여지는 슬라이드 수
   slidesToScroll:1, // 넘어가는 슬라이드수
   pauseOnHover:false, // 슬라이드위에 마우스오버시 슬라이드멈춤여부
@@ -151,3 +151,14 @@ $('.visualRoll').slick({
   nextArrow: '<button class="nextArrow marrow"><i class="fas fa-angle-right"></i></button>',
   
 })
+
+$('.plpa').toggle(
+  function(){
+     $(".visualRoll").slick("slickPause")
+     $(this).find('i').removeClass('fa-pause').addClass('fa-play')
+  },
+  function(){
+     $(".visualRoll").slick("slickPlay")
+     $(this).find('i').removeClass('fa-play').addClass('fa-pause')
+  }
+)
