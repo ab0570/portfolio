@@ -222,13 +222,14 @@ padding-left: 10px;}
 #about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 #about > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
- padding: 50px; color: #666; line-height:38px;}
+ padding: 50px; color: #666; line-height:38px;
+ animation:fadeIn 1s both 2s;}
 #about .img_box img:nth-child(1) {position: relative; top:-60px; left:210px;
-  animation:fadeInLeft  1s both 3s;}
+  animation:fadeInLeft 1s both 2.5s;}
 #about .img_box img:nth-child(2) {position: relative; top:0; left:100px;
-  animation:bounceInUp  1s both 5s;}
+  animation:fadeInUp  1s both 3.5s;}
 #about .img_box img:nth-child(3) {position: relative; top:-70px; left:-30px;
-  animation:fadeInRight  1s both 4s;}
+  animation:fadeInRight   1s both 3s;}
 #about .img_box {padding:0 5% 125px;}
 #about .img_box img {width: 30%; padding: 50px;}
 

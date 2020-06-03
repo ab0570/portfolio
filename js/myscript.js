@@ -109,6 +109,7 @@ $('.depth1 > li').eq(2).on('click',function(){
 $('.depth1 > li').eq(3).on('click',function(){
   var sh = $('#about').offset().top
   $('body,html').animate({scrollTop:sh},1100)
+  
 })
 
 $('.depth1 > li').eq(0).on('click',function(){
