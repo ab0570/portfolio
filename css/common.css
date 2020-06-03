@@ -133,12 +133,7 @@ body, html, #wrap {height: 100%;}
 #shop .gallery li {float: left; width:23%; height: 34.4997%;
 margin: 40px 1%; position: relative; overflow: hidden;}
 #shop .gallery li img {width: 100%; transition: all 0.5s;
-position: relative;}
-/* #shop .gallery li img:nth-child(1) {animation:fadeOutDown 3s both 2s}
-#shop .gallery li img:nth-child(2) {animation:fadeIn 3s both 2.5s}
-#shop .gallery li img:nth-child(3) {animation:fadeIn 3s both 3s}
-#shop .gallery li img:nth-child(4) {animation:fadeIn 3s both 3.5s} */
-
+position: relative; animation:zoomIn 1s both 1s;}
 #shop .gallery li:hover img {transform: scale(1.3);}
 #shop .gallery li a:after {content:"Quick view"; position:absolute; top:100%;
   left:0%;bottom:0%;right:0%; background: rgba(251, 201, 153, 0.8);
@@ -146,15 +141,20 @@ position: relative;}
 font-size: 18px; color:rgba(0,0,0,0.8);}
 #shop .gallery li:hover a:after  {top:90%; }
 
+
+
+/* #shop.on .gallery li img {transform: scale(1.3); 
+  animation:rotateIn 1s both 3s;} */
+
 .popupBox {display: none;}
 .popupBox.on {
   display: block; position: absolute; top: 0; left: 0; right: 0;
-  height: 498%; background: rgba(0,0,0,0.5); z-index: 9999999999999;}
+  height: 498%;  z-index: 9999999999999;}
 .popupBox.on .inner {position: absolute; top: 0; left: 50%;
-  transform: translate(-50%);background: #fff; text-align:center;
+  transform: translate(-50%);background:#ddd; text-align:center;
 padding:20px 30px 30px 30px;}
 .popupBox.on h3 {font-size: 45px; font-weight: bold; padding-bottom: 20px;}
-.popupBox.on button {font-size: 50px; color: #fff; position: absolute;
+.popupBox.on button {font-size: 50px; color: #ddd; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
 
 #header { position: relative;}
@@ -227,16 +227,22 @@ padding-left: 10px;}
 #about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 #about > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
- padding: 50px; color: #666; line-height:38px;
- animation:fadeIn 1s both 2s;}
-#about .img_box img:nth-child(1) {position: relative; top:-60px; left:210px;
-  animation:fadeInLeft 1s both 2.5s;}
-#about .img_box img:nth-child(2) {position: relative; top:0; left:100px;
-  animation:fadeInUp  1s both 3.5s;}
-#about .img_box img:nth-child(3) {position: relative; top:-70px; left:-30px;
-  animation:fadeInRight   1s both 3s;}
+ padding: 50px; color: #666; line-height:38px;}
+#about .img_box img:nth-child(1) {position: relative; top:-60px; left:210px;}
+#about .img_box img:nth-child(2) {position: relative; top:0; left:100px;}
+#about .img_box img:nth-child(3) {position: relative; top:-70px; left:-30px;}
 #about .img_box {padding:0 5% 125px;}
 #about .img_box img {width: 30%; padding: 50px;}
+
+#about.on > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
+  padding: 50px; color: #666; line-height:38px;
+  animation:fadeIn 1s both 0.4s;}
+#about.on .img_box img:nth-child(1) {position: relative; top:-60px; left:210px;
+  animation:fadeInLeft 1s both 0.8s;}
+#about.on .img_box img:nth-child(2) {position: relative; top:0; left:100px;
+  animation:fadeInUp 1s both 1.5s;}
+#about.on .img_box img:nth-child(3) {position: relative; top:-70px; left:-30px;
+   animation:fadeInRight 1s both 1.1s;}
 
 
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;

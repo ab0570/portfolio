@@ -78,15 +78,14 @@ $('.header_cont').css({
     zIndex:99999
   })
 }
-var top = $('.gallery').offset().top+$('.gallery').height()-10
-console.log(top, qw)
+var top = $('.gallery').offset().top+$('.gallery').height()-700
 if (qw >= top) {
-  $('#about > p:nth-of-type(1)').css({
-    animation:"fadeIn 1s both 2s"
-  })
+  $('#about').addClass('on')
+} else {
+  $('#about').removeClass('on')
 }
-
 })
+
 
 $('#header .openMOgnb').on('click',function(){
   $(this).next().addClass('on').css({
