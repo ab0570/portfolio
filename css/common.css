@@ -149,7 +149,7 @@ padding:20px 30px 30px 30px;}
 .popupBox.on button {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
 
-#header {height:950px; position: relative;}
+#header { position: relative;}
 .main_pc {position: relative; width:100%;}
 .visualRoll {}
 .slide1 {
