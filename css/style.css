@@ -3,7 +3,6 @@
 @media screen and (max-width:1024px) {
 body,html,#wrap {height: auto;}  
 .main_pc {position: relative; width:100%;}
-.visualRoll {}
 .slide1 {
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:900px; position: relative;}
@@ -148,7 +147,6 @@ padding-top: 30px;}
 
 @media screen and (max-width:799px) {
 .main_pc {position: relative; width:100%;}
-.visualRoll {}
 .slide1 {
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:850px; position: relative;}
@@ -166,72 +164,84 @@ background: rgb(247, 143, 143);}
 .header_cont {display: none; padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont.on {display: block;}
 
-  #shop .gallery li {float: left; width:48%; height: 34.4997%;
-    margin: 40px 1%; position: relative; overflow: hidden;}
+.openMOgnb {display:block; position: fixed; top:50px; right:30px; 
+  width:28px; height:27px; z-index: 999999;}
+.openMOgnb span {display: block; width: 28px; height: 4px;
+background: #fff; margin-bottom: 5px; border-radius: 10px;}
+.openMOgnb span:nth-of-type(2) {width: 20px;}
+.openMOgnb span:nth-of-type(3) {margin-bottom: 0;}
 
-  .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
-    border-radius: 50%; position: absolute; top:400px; left:15%;}
-  .won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-    border-radius: 50%; position: absolute; top: 550px; right: 300px;}
-  .won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 400px; right: 250px;}
-  .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
-    border-radius: 50%; position: absolute; top:870px; left:10%;}
-  .won4 {width: 100px; height: 100px; background:#ffd9cb; 
-  border-radius: 50%; position: absolute; top: 800px; left:10%}
-  .won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
-    border-radius: 50%; position: absolute; top:990px; right:780px;}
-  
-  #about {position: relative;}
-  #about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
-  color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
-  #about > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
-   padding: 50px; color: #666; line-height:38px;}
-  #about .img_box img:nth-child(1) {position: relative; top:0px; left:0px;}
-  #about .img_box img:nth-child(2) {position: relative; top:0; left:0px;}
-  #about .img_box img:nth-child(3) {position: relative; top:0px; left:0px;}
-  #about .img_box {padding:0 5% 125px; text-align: center;}
-  #about .img_box img {width: 70%; padding: 0px;}
+.header_cont.on+.closeMOgnb {display: block;  position: fixed; top:62px; right:30px; 
+width:30px; height:27px;}
+.closeMOgnb a {display: block;}
+.closeMOgnb span {display:block; background:#fff; border-radius:5px;
+transform:rotate(45deg); width: 30px; height: 4px;
+position: absolute; top: 0; left: 0;}
+.closeMOgnb span:nth-child(2) {transform: rotate(-45deg);}
 
-  .way .waybox {width:90%; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
+#shop .gallery li {float: left; width:48%; height: 34.4997%;
+  margin: 40px 1%; position: relative; overflow: hidden;}
+.won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:400px; left:15%;}
+.won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
+  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+.won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
+border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+.won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
+  border-radius: 50%; position: absolute; top:870px; left:10%;}
+.won4 {width: 100px; height: 100px; background:#ffd9cb; 
+border-radius: 50%; position: absolute; top: 800px; left:10%}
+.won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:990px; right:780px;}
+
+#about {position: relative;}
+#about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
+color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
+#about > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
+ padding: 50px; color: #666; line-height:38px;}
+#about .img_box img:nth-child(1) {position: relative; top:0px; left:0px;}
+#about .img_box img:nth-child(2) {position: relative; top:0; left:0px;}
+#about .img_box img:nth-child(3) {position: relative; top:0px; left:0px;}
+#about .img_box {padding:0 5% 125px; text-align: center;}
+#about .img_box img {width: 70%; padding: 0px;}
+.way .waybox {width:90%; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
     position: relative; border-radius: 5px;  padding:0 70px 90px 70px;}
 }
 
 @media screen and (max-width:500px) {
 
 .main_pc {position: relative; width:100%;}
-.visualRoll {}
 .slide1 {
   background: url(../img/back312.png) no-repeat center ;
-  background-size: cover; height:800px; position: relative;}
+  background-size: cover; height:700px; position: relative;}
 .slide2 {
   background: url(../img/back312.png) no-repeat center ;
-  background-size: cover; height:800px; position: relative;}
+  background-size: cover; height:700px; position: relative;}
 .slide3 {
   background: url(../img/back312.png) no-repeat center ;
-  background-size: cover; height:800px; position: relative;}
-h1 {text-align: center; font-size: 40px; 
+  background-size: cover; height:700px; position: relative;}
+h1 {text-align: center; font-size: 50px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
 background: rgb(247, 143, 143);}
 #header {height:800px; position: relative;}
   
-  .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
-    border-radius: 50%; position: absolute; top:400px; left:15%;}
-  .won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-    border-radius: 50%; position: absolute; top: 550px; right: 300px;}
-  .won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 400px; right: 250px;}
-  .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
-    border-radius: 50%; position: absolute; top:870px; left:10%;}
-  .won4 {width: 100px; height: 100px; background:#ffd9cb; 
-  border-radius: 50%; position: absolute; top: 800px; left:10%}
-  .won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
-    border-radius: 50%; position: absolute; top:990px; right:780px;}
-  
-  .way h2 {text-align: center; font-size: 45px; padding-top: 40px;
-      font-family: 'Jua', sans-serif;color: #fff; letter-spacing: 5px;
-      text-shadow: 1px 1px black, -1px -1px gray;}
-  .way .waybox {width:90%; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
-      position: relative; border-radius: 5px;  padding:0 10px 90px 10px;}
+.won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:400px; left:15%;}
+.won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
+  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+.won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
+border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+.won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
+  border-radius: 50%; position: absolute; top:870px; left:10%;}
+.won4 {width: 100px; height: 100px; background:#ffd9cb; 
+border-radius: 50%; position: absolute; top: 800px; left:10%}
+.won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:990px; right:780px;}
+
+.way h2 {text-align: center; font-size: 45px; padding-top: 40px;
+    font-family: 'Jua', sans-serif;color: #fff; letter-spacing: 5px;
+    text-shadow: 1px 1px black, -1px -1px gray;}
+.way .waybox {width:90%; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
+    position: relative; border-radius: 5px;  padding:0 10px 90px 10px;}
 }
