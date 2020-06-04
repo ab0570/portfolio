@@ -16,8 +16,8 @@ body,html,#wrap {height: auto;}
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
-background: rgb(247, 143, 143);}
-#header {height:900px; position: relative;}
+background: rgb(247, 143, 143); height: 120px;}
+#header { position: relative;}
 .header_cont {display: none; padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont.on {display: block;}
 .header_cont .util {float: none; font-size: 18px; text-align: center;}
@@ -168,8 +168,8 @@ padding-top: 30px;}
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
-background: rgb(247, 143, 143);}
-#header {height:850px; position: relative;}
+background: rgb(247, 143, 143); height: 120px;}
+#header { position: relative;}
 .header_cont {display: none; padding:0px 9.5%; background: rgba(255, 237, 237, 0.8);}
 .header_cont.on {display: block;}
 
@@ -251,8 +251,8 @@ color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 h1 {text-align: center; font-size: 50px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
  font-family: 'Raleway', 'sans-serif'; position: fixed; top: 0; 
-background: rgb(247, 143, 143);}
-#header {height:800px; position: relative;}
+background: rgb(247, 143, 143); height: 120px;}
+#header { position: relative;}
 
 .popupBox {display: none;}
 .popupBox.on { 
