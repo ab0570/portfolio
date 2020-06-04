@@ -67,12 +67,6 @@ transform: scale(1.2); cursor: pointer;}
 .depth2 li:hover {color: #fff; background: none;
 text-shadow: 2px 2px 5px rgb(75, 75, 75),-2px -2px 5px rgb(75, 75, 75);}
 
-.message {position: absolute; top: 0; left: 0;}
-.message p {font-size: 100px; color:white; 
-  text-shadow: 1px 1px 3px brown, -1px -1px 3px brown;}
-.message p:nth-child(1){padding-top: 350px; padding-left: 100px;}
-.message p:nth-child(2){padding-top: 20px; padding-left: 150px;}
-.message p:nth-child(3){padding-top: 20px; padding-left: 210px;}
 
 #shop {max-width: 1800px; margin: 0 auto;}
 #shop .gallery li {float: left; width:23%; height: 34.4997%;
