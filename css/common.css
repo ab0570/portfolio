@@ -145,13 +145,19 @@ font-size: 18px; color:rgba(0,0,0,0.8);}
 .popupBox {display: none;}
 .popupBox.on {
   display: block; position: absolute; top: 0; left: 0; right: 0;
-  height: 498%;  z-index: 9999999999999;}
-.popupBox.on .inner {position: absolute; top: 0; left: 50%;
-  transform: translate(-50%);background:#ddd; text-align:center;
-padding:20px 30px 30px 30px;}
+  height: 498%;  z-index: 9999999999999; background: rgba(100, 100, 100, 0.5);}
+.popupBox.on .inner {position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%,-50%);background:#ddd; text-align:center;
+  padding:20px 30px 30px 30px; }
 .popupBox.on h3 {font-size: 45px; font-weight: bold; padding-bottom: 20px;}
 .popupBox.on button {font-size: 50px; color: #ddd; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
+.popupBox .arrow {position: fixed;width: 100%; top: 50%;
+   transform: translateY(-50%);}
+.popupBox .arrow .marrow {
+  font-size: 50px; color: #fff; position: absolute; top: 0;}
+.popupBox .arrow .prevArrow {left:30%;} 
+.popupBox .arrow .nextArrow {right:30%;}
 
 #header { position: relative;}
 .main_pc {position: relative; width:100%;}
@@ -238,7 +244,7 @@ color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
 #about.on .img_box img:nth-child(2) {position: relative; top:0; left:100px;
   animation:fadeInUp 1s both 1.5s;}
 #about.on .img_box img:nth-child(3) {position: relative; top:-70px; left:-30px;
-   animation:fadeInRight 1s both 1.1s;}
+  animation:fadeInRight 1s both 1.1s;}
 
 
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
