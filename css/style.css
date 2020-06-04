@@ -111,7 +111,7 @@ top:-40px; right:-20px; background: none; border: none;}
 #about {position: relative;}
 #about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
-#about > p:nth-of-type(1) {text-align: center; font-size: 24px; font-family:'Raleway', 'sans-serif';
+#about > p:nth-of-type(1) {text-align: center; font-size: 22px; font-family:'Raleway', 'sans-serif';
   padding: 40px; color: #666; line-height:32px;}
 #about .img_box img:nth-child(1) {position: relative; top:-40px; left:70px;}
 #about .img_box img:nth-child(2) {position: relative; top:0; left:50px;}
@@ -223,10 +223,10 @@ border-radius: 50%; position: absolute; top: 800px; left:10%}
   border-radius: 50%; position: absolute; top:990px; right:780px;}
 
 #about {position: relative; overflow: hidden;}
-#about h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
+#about h2 {text-align: center; font-size: 55px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
-#about > p:nth-of-type(1) {text-align: center; font-size: 27px; font-family:'Raleway', 'sans-serif';
- padding: 50px; color: #666; line-height:38px;}
+#about > p:nth-of-type(1) {text-align: center; font-size: 14px; font-family:'Raleway', 'sans-serif';
+ padding: 50px; color: #666; line-height:28px;}
 #about .img_box img:nth-child(1) {position: relative; top:0px; left:0px;}
 #about .img_box img:nth-child(2) {position: relative; top:0; left:0px;}
 #about .img_box img:nth-child(3) {position: relative; top:0px; left:0px;}
@@ -286,6 +286,19 @@ border-radius: 50%; position: absolute; top: 800px; left:10%}
 .won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
   border-radius: 50%; position: absolute; top:990px; right:780px;}
 
+#about {position: relative; overflow: hidden;}
+#about h2 {text-align: center; font-size:45px; font-family:'Raleway', 'sans-serif';
+color: rgb(252, 112, 112);padding-top: 50px; padding-bottom: 30px;}
+#about > p:nth-of-type(1) {text-align: center; font-size: 14px; font-family:'Raleway', 'sans-serif';
+ padding: 50px; color: #666; line-height:24px;}
+#about .img_box img:nth-child(1) {position: relative; top:0px; left:0px;}
+#about .img_box img:nth-child(2) {position: relative; top:0; left:0px;}
+#about .img_box img:nth-child(3) {position: relative; top:0px; left:0px;}
+#about .img_box {padding:0 5% 125px; text-align: center;}
+#about .img_box img {width: 70%; padding: 0px;}
+
+.way .waybox {width:90%; margin: 0 auto; background:rgba(39, 39, 39, 0.5);
+    position: relative; border-radius: 5px;  padding:0 70px 90px 70px;}
 .way h2 {text-align: center; font-size: 45px; padding-top: 40px;
     font-family: 'Jua', sans-serif;color: #fff; letter-spacing: 5px;
     text-shadow: 1px 1px black, -1px -1px gray;}
