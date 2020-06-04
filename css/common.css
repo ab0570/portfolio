@@ -147,17 +147,17 @@ font-size: 18px; color:rgba(0,0,0,0.8);}
   display: block; position: absolute; top: 0; left: 0; right: 0;
   height: 498%;  z-index: 9999999999999; background: rgba(100, 100, 100, 0.5);}
 .popupBox.on .inner {position: fixed; top: 50%; left: 50%;
-  transform: translate(-50%,-50%);background:#ddd; text-align:center;
+  transform: translate(-50%,-50%);background:#fff; text-align:center;
   padding:20px 30px 30px 30px; }
 .popupBox.on h3 {font-size: 45px; font-weight: bold; padding-bottom: 20px;}
-.popupBox.on button {font-size: 50px; color: #ddd; position: absolute;
+.popupBox.on button {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
 .popupBox .arrow {position: fixed;width: 100%; top: 50%;
    transform: translateY(-50%);}
 .popupBox .arrow .marrow {
-  font-size: 50px; color: #fff; position: absolute; top: 0;}
-.popupBox .arrow .prevArrow {left:30%;} 
-.popupBox .arrow .nextArrow {right:30%;}
+  font-size: 70px; color: #fff; position: absolute; top: 0;}
+.popupBox .arrow .prevArrow {left:31%;} 
+.popupBox .arrow .nextArrow {right:31%;}
 
 #header { position: relative;}
 .main_pc {position: relative; width:100%;}

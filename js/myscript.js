@@ -140,9 +140,28 @@ $('.popupBox .inner button').on('click',function(){
    $(this).parents('.popupBox').removeClass('on')
 })
 
-$('.poupBox .prevArrow').on('click',function(){
-   lieq--;
+$('.popupBox .prevArrow').on('click',function(){
+   --lieq;
+   if (lieq<0){
+     lieq = 7;
+   }
+  href = $('.gallery > li').eq(lieq).find('a').attr('href')
+  src = $('.gallery > li').eq(lieq).find('a').attr('data-src')
+  alt = $('.gallery > li').eq(lieq).find('a').find('img').attr('alt')
+  $('.popupBox .inner div a').attr('href',href)
+  $('.popupBox .inner div img').attr('src',src).attr('alt',alt)
+})
 
+$('.popupBox .nextArrow').on('click',function(){
+  ++lieq;
+  if (lieq>7){
+    lieq = 0;
+  }
+ href = $('.gallery > li').eq(lieq).find('a').attr('href')
+ src = $('.gallery > li').eq(lieq).find('a').attr('data-src')
+ alt = $('.gallery > li').eq(lieq).find('a').find('img').attr('alt')
+ $('.popupBox .inner div a').attr('href',href)
+ $('.popupBox .inner div img').attr('src',src).attr('alt',alt)
 })
 
 $('.visualRoll').slick({
