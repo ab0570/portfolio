@@ -256,7 +256,7 @@ h1 {text-align: center; font-size: 50px;
 background: rgb(247, 143, 143); height: 120px;}
 #header { position: relative;}
 
-#shop h2 {text-align: center; font-size: 40px; font-family:'Raleway', 'sans-serif';
+#shop h2 {text-align: center; font-size: 36px; font-family:'Raleway', 'sans-serif';
   padding-top: 70px; padding-bottom: 60px; color: rgb(67, 148, 151);}
 
 .popupBox {display: none;}
@@ -292,9 +292,9 @@ border-radius: 50%; position: absolute; top: 800px; left:10%}
   border-radius: 50%; position: absolute; top:990px; right:780px;}
 
 #about {position: relative; overflow: hidden;}
-#about h2 {text-align: center; font-size:40px; font-family:'Raleway', 'sans-serif';
+#about h2 {text-align: center; font-size:36px; font-family:'Raleway', 'sans-serif';
 color: rgb(252, 112, 112);padding-top: 30px; padding-bottom: 20px;}
-#about > p:nth-of-type(1) {text-align: center; font-size: 12px; font-family:'Raleway', 'sans-serif';
+#about > p:nth-of-type(1) {text-align: center; font-size: 8px; font-family:'Raleway', 'sans-serif';
  padding: 50px; color: #666; line-height:24px;}
 #about .img_box img:nth-child(1) {position: relative; top:0px; left:0px;}
 #about .img_box img:nth-child(2) {position: relative; top:0; left:0px;}
