@@ -91,15 +91,12 @@ font-size: 16px; color:rgba(0,0,0,0.8);}
 padding:20px 30px 30px 30px;}
 .popupBox.on .inner img {width: 80%;}
 .popupBox.on h3 {font-size: 45px; font-weight: bold; padding-bottom: 20px;}
-.popupBox.on button {font-size: 50px; color: #fff; position: absolute;
+.popupBox.on button.close {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
-
-.popupBox .arrow {position: fixed;width: 100%; top: 50%;
-  transform: translateY(-50%);}
-.popupBox .arrow .marrow {
- font-size: 60px; color: #fff; position: absolute; top: 0;}
- .popupBox .arrow .prevArrow {left:50%; margin-left:-32% ;} 
- .popupBox .arrow .nextArrow {right:50%; margin-right:-32% }
+.popupBox.on .arrow { transform: translateY(-50%); background: none;
+ font-size: 60px; color: #fff; position: absolute; top:50%; border: none;}
+.popupBox.on .prev {left:-80px} 
+.popupBox.on .next {right:-80px}
 
 
 #about {position: relative;}
@@ -191,15 +188,12 @@ position: absolute; top: 0; left: 0;}
 padding:20px 30px 30px 30px;}
 .popupBox.on .inner img {width: 80%;}
 .popupBox.on h3 {font-size: 40px; font-weight: bold; padding-bottom: 20px;}
-.popupBox.on button {font-size: 50px; color: #fff; position: absolute;
+.popupBox.on button.close {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
-
-.popupBox .arrow {position: fixed;width: 100%; top: 50%;
-  transform: translateY(-50%);}
-.popupBox .arrow .marrow {
- font-size: 60px; color: #fff; position: absolute; top: 0;}
- .popupBox .arrow .prevArrow {left:50%; margin-left:-35% ;} 
- .popupBox .arrow .nextArrow {right:50%; margin-right:-35% }
+.popupBox.on .arrow {transform: translateY(-50%); background: none;
+ font-size: 60px; color: #fff; position: absolute; top: 50%; border: none;}
+ .popupBox.on .prev {left:-80px;}
+ .popupBox.on .next {right:-80px}
 
 #shop .gallery li {float: left; width:48%; height: 34.4997%;
   margin: 40px 1%; position: relative; overflow: hidden;}
@@ -262,15 +256,13 @@ background: rgb(247, 143, 143); height: 120px;}
 padding:20px 30px 30px 30px;}
 .popupBox.on .inner img {width: 80%;}
 .popupBox.on h3 {font-size: 35px; font-weight: bold; padding-bottom: 20px;}
-.popupBox.on button {font-size: 50px; color: #fff; position: absolute;
+.popupBox.on button.close {font-size: 50px; color: #fff; position: absolute;
 top:-40px; right:-20px; background: none; border: none;}
-
-.popupBox .arrow {position: fixed;width: 100%; top: 50%;
-  transform: translateY(-50%);}
-.popupBox .arrow .marrow {
- font-size: 60px; color: #fff; position: absolute; top: 0;}
- .popupBox .arrow .prevArrow {left:50%; margin-left:-40% ;} 
- .popupBox .arrow .nextArrow {right:50%; margin-right:-40% }
+.popupBox.on .arrow { background: none; border: none; 
+ font-size: 60px; color: #fff; position: absolute; top: 50%;
+transform: translateY(-50%);}
+ .popupBox.on .prev {left:-80px} 
+ .popupBox.on .next {right:-80px }
 
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
   border-radius: 50%; position: absolute; top:400px; left:15%;}

@@ -125,7 +125,7 @@ button:hover {cursor:pointer;}
 }
 .openMOgnb {display: none;}
 .closeMOgnb {display: none;}
-body, html, #wrap {height: 100%;}
+/* body, html, #wrap {height: 100%;} */
 
 #shop {max-width: 1800px; margin: 0 auto;}
 #shop h2 {text-align: center; font-size: 60px; font-family:'Raleway', 'sans-serif';
@@ -145,7 +145,7 @@ font-size: 18px; color:rgba(0,0,0,0.8);}
 .popupBox {display: none;}
 .popupBox.on {
   display: block; position: absolute; top: 0; left: 0; right: 0;
-  height: 498%;  z-index: 9999999999999; background: rgba(100, 100, 100, 0.5);}
+  bottom: 0;  z-index: 9999999999999; background: rgba(100, 100, 100, 0.5);}
 .popupBox.on .inner {position: fixed; top: 50%; left: 50%;
   transform: translate(-50%,-50%);background:#fff; text-align:center;
   padding:20px 30px 30px 30px; }
@@ -169,6 +169,17 @@ top:-40px; right:-20px; background: none; border: none;}
 .slide3 {
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:970px; position: relative;}
+
+
+.message {position: absolute; top: 52%; left:10%; transform: translateY(-50%)}
+.message p {font-size: 80px;  color:brown;
+  font-family: 'Merriweather', serif; }
+.main_pc .message p:nth-child(2) {margin-left: 100px; padding-top: 15px;}
+.main_pc .message p:nth-child(3) {margin-left: 200px; padding-top: 25px;}
+
+.slick-active .message p:nth-child(1) {animation:fadeIn 2s both 1s;}
+.slick-active .message p:nth-child(2) {animation:fadeIn 1s both 1.5s;}
+.slick-active .message p:nth-child(3) {animation:fadeIn 1s both 2s;}
 
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
@@ -219,12 +230,6 @@ margin: 0 5px;}
 .main_pc .plpa {position: absolute; bottom: 50px; background: none; border: none;
 font-size: 15px; color: #fff; right: 0; width: calc(50% - 30px); text-align: left;
 padding-left: 10px;}
-
-.message {position: absolute; top: 52%; left:10%; transform: translateY(-50%)}
-.message p {font-size: 80px;  color:brown;
-  font-family: 'Merriweather', serif; }
-.main_pc .message p:nth-child(2) {margin-left: 100px; padding-top: 15px;}
-.main_pc .message p:nth-child(3) {margin-left: 200px; padding-top: 25px;}
 
 /* .slide.slick-active .main_pc p {animation: fainInLeft 1s both 0.3;} */
 
