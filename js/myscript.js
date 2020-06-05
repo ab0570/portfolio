@@ -136,11 +136,11 @@ $('.gallery>li>a').on('click',function(e){
  $('.popupBox .inner div img').attr('src',src).attr('alt',alt)
 })
 
-$('.popupBox .inner button').on('click',function(){
+$('.popupBox .inner button.close').on('click',function(){
    $(this).parents('.popupBox').removeClass('on')
 })
 
-$('.popupBox .prevArrow').on('click',function(){
+$('.popupBox .prev').on('click',function(){
    --lieq;
    if (lieq<0){
      lieq = 7;
@@ -152,7 +152,7 @@ $('.popupBox .prevArrow').on('click',function(){
   $('.popupBox .inner div img').attr('src',src).attr('alt',alt)
 })
 
-$('.popupBox .nextArrow').on('click',function(){
+$('.popupBox .next').on('click',function(){
   ++lieq;
   if (lieq>7){
     lieq = 0;
