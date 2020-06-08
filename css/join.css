@@ -1,17 +1,17 @@
 @charset "utf-8";
 
 .row {max-width:1200px; margin: 0 auto;}
-#container .join_tit h2 {padding: 250px 0 0 0;
+#container .join_tit h2 {padding: 250px 0 10px 0;
 margin:0 50px; border-bottom:1px solid rgb(0, 0, 0); 
 font: 30px 'Arial Narrow'; color: rgb(0, 0, 0); letter-spacing:3px;}
-#container .join_tit .in {font-variant: small-caps; color: rgb(63, 63, 63);}
-#container .join_tit p {padding: 20px 0 0 50px; color: rgb(0, 0, 0);}
+#container .join_tit .in {font-variant: small-caps; color: rgb(8, 0, 77);}
+#container .join_tit p {padding: 15px 0 0 50px; color: rgb(0, 0, 0);}
 #container .join_tit .path {padding: 0 10px;}
 
 .join_form {padding: 55px 50px;}
 .join_form .info_pilsoo {font-size: 15px; color: #f00;
 padding-left: 20px; padding-bottom: 10px; 
-border-bottom: 2px solid#000;}
+border-bottom: 1px solid#000;}
 .join_form .pilsoo_item:before {content: "*"; color: red;
 position:relative; left:-10px; top:3px; font-weight: bold;}
 .join_form .app_list {padding: 10px 0px 10px 20px;
@@ -47,14 +47,14 @@ border-radius: 5px; margin:0 10px;}
 
 .join_form .radio_area label
  {padding-right: 20px; font-size: 15px;
-color: #444; padding-left: 20px; display: inline-block; height: 15px;
+color: #444; padding-left: 10px; display: inline-block; height: 15px;
 margin-top: 20px;  background:url(../img/bg_radio.png) no-repeat 0 0;}
 .join_form .radio_area input[type='radio']:checked+label {
     background:url(../img/bg_radio.png) no-repeat 0 -50px;}
 
 .join_form .hobby_area label {
     padding-right: 20px; font-size: 15px;
-color: #444; padding-left: 20px; display: inline-block; 
+color: #444; padding-left: 10px; display: inline-block; 
 background:url(../img/bg_checkbox.png) no-repeat 0 0px;
 background-size:15px 30px; height:15px;}
 .join_form .hobby_area input[type='checkbox']:checked+label {
