@@ -143,17 +143,17 @@ font-family:'Raleway', 'sans-serif'; border-radius: 10px;}
   animation:fadeInRight 1s both 1.2s;}
 
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:400px; left:0px;}
+  border-radius: 50%; position: absolute; top:400px; left:15%}
 .won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+  border-radius: 50%; position: absolute; top: 450px; right: 15%}
 .won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
-border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+border-radius: 50%; position: absolute; top: 500px; right: 15%;}
 .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
-  border-radius: 50%; position: absolute; top:560px; left:0px;}
+  border-radius: 50%; position: absolute; top:600px; left:10%;}
 .won4 {width: 100px; height: 100px; background:#ffd9cb; 
-border-radius: 50%; position: absolute; top: 500px; left:0px}
+border-radius: 50%; position: absolute; top: 650px; left:10%}
 .won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:600px; right:400px;}
+border-radius: 50%; position: absolute; top:700px; right:30%;}
 
 .way {background:url(../img/back73.png) no-repeat center; 
 background-size: cover; padding: 180px 0; 
@@ -238,17 +238,17 @@ top:-40px; right:-20px; background: none; border: none;}
 #shop h2 {text-align: center; font-size: 50px; font-family:'Raleway', 'sans-serif';
     padding-top: 60px; padding-bottom: 50px; color: rgb(67, 148, 151);}
 .won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:400px; left:15%;}
+  border-radius: 50%; position: absolute; top:600px; left:20%;}
 .won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
+  border-radius: 50%; position: absolute; top: 900px; right: 30%;}
 .won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
-border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+border-radius: 50%; position: absolute; top: 1200px; right: 30%;}
 .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
-  border-radius: 50%; position: absolute; top:870px; left:10%;}
+  border-radius: 50%; position: absolute; top:1500px; left:15%;}
 .won4 {width: 100px; height: 100px; background:#ffd9cb; 
-border-radius: 50%; position: absolute; top: 800px; left:10%}
+border-radius: 50%; position: absolute; top: 1750px; left:15%}
 .won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:990px; right:780px;}
+  border-radius: 50%; position: absolute; top:2000px; right:30%;}
 
 #about {position: relative; overflow: hidden;}
 #about h2 {text-align: center; font-size: 50px; font-family:'Raleway', 'sans-serif';
@@ -341,18 +341,18 @@ transform: translateY(-50%);}
  .popupBox.on .prev {left:-80px} 
  .popupBox.on .next {right:-80px }
 
-.won1 {width: 250px; height: 250px; background:orange ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:400px; left:15%;}
-.won3 {width: 150px; height: 150px; background: powderblue; opacity: 0.5;
-  border-radius: 50%; position: absolute; top: 550px; right: 300px;}
-.won2 {width: 200px; height: 200px; background:pink;opacity: 0.5;
-border-radius: 50%; position: absolute; top: 400px; right: 250px;}
+.won1 {width: 200px; height: 200px; background:orange ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:500px; left:15%;}
+.won3 {width: 100px; height: 100px; background: powderblue; opacity: 0.5;
+  border-radius: 50%; position: absolute; top: 800px; right: 15%;}
+.won2 {width: 150px; height: 150px; background:pink;opacity: 0.5;
+border-radius: 50%; position: absolute; top: 1000px; right: 15%;}
 .won5 {width: 70px; height: 70px; background: rosybrown; opacity: 0.5;
-  border-radius: 50%; position: absolute; top:870px; left:10%;}
+  border-radius: 50%; position: absolute; top:1250px; left:10%;}
 .won4 {width: 100px; height: 100px; background:#ffd9cb; 
-border-radius: 50%; position: absolute; top: 800px; left:10%}
-.won7 {width: 110px; height: 110px; background:rgb(179, 116, 0) ; opacity: 0.3;
-  border-radius: 50%; position: absolute; top:990px; right:780px;}
+border-radius: 50%; position: absolute; top: 1500px; left:10%}
+.won7 {width: 70px; height: 70px; background:rgb(179, 116, 0) ; opacity: 0.3;
+  border-radius: 50%; position: absolute; top:1750px; right:15%;}
 
 #about {position: relative; overflow: hidden;}
 #about h2 {text-align: center; font-size:36px; font-family:'Raleway', 'sans-serif';
