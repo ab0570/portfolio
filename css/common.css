@@ -306,3 +306,7 @@ i {padding-right: 10px; display: inline-block; width:30px; text-align: center;}
 .footer p {background: rgba(255, 204, 108,0.5); font-size: 16px;
 color: rgb(41, 41, 41); text-align: center; height: 80px;
 padding-top: 30px;}
+
+.top {position: fixed; bottom: 40px; right: 40px; font-size: 50px;
+color: rgb(255, 145, 145); z-index: 9999999999999; display: none; cursor: pointer; 
+text-shadow: 3px 3px 3px rgb(24, 24, 24) }

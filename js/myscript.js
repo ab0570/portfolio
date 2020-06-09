@@ -86,7 +86,6 @@ if (qw >= top) {
 }
 })
 
-
 $('#header .openMOgnb').on('click',function(){
   $(this).next().addClass('on').css({
     position:'fixed',
@@ -193,3 +192,18 @@ $('.plpa').toggle(
      $(this).find('i').removeClass('fa-play').addClass('fa-pause')
   }
 )
+
+$(window).scroll(function(){
+ var top = $(this).scrollTop()
+ if (top > 100) {
+   $('.top').addClass('on')
+ } else {
+   $('.top').removeClass('on')
+ }
+})
+
+$('.top').on('click',function(){
+  $('body,html').animate({
+    scrollTop:0
+  },800)
+})
