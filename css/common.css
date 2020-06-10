@@ -159,7 +159,7 @@ top:-40px; right:-20px; background: none; border: none; cursor: url(../img/curso
 
 #header { position: relative;}
 .main_pc {position: relative; width:100%;}
-/* .slide1 {
+.slide1 {
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:970px; position: relative;}
 .slide2 {
@@ -167,9 +167,8 @@ top:-40px; right:-20px; background: none; border: none; cursor: url(../img/curso
   background-size: cover; height:970px; position: relative;}
 .slide3 {
   background: url(../img/back312.png) no-repeat center ;
-  background-size: cover; height:970px; position: relative;} */
+  background-size: cover; height:970px; position: relative;}
 
-.slide1,.slide2,.slide3 {position: relative;}
 .message {position: absolute; top: 52%; left:10%; transform: translateY(-50%)}
 .message p {font-size: 80px;  color:brown;
   font-family: 'Merriweather', serif; }

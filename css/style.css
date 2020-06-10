@@ -3,6 +3,15 @@
 @media screen and (max-width:1024px) {
 body,html,#wrap {height: auto;}  
 .main_pc {position: relative; width:100%;}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
+.slide2 {
+  background: url(../img/back8.jpg) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:900px; position: relative;}
 
 .message {position: absolute; top: 49%; left:10%; transform: translateY(-50%)}
 .message p {font-size: 70px;  color:brown;
@@ -171,6 +180,15 @@ padding-top: 30px;}
 
 @media screen and (max-width:799px) {
 .main_pc {position: relative; width:100%;}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
+.slide2 {
+  background: url(../img/back8.jpg) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:850px; position: relative;}
 
 .message {position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%)}
 .message p {font-size: 50px;  color:brown;
@@ -283,6 +301,15 @@ font-family:'Raleway', 'sans-serif'; border-radius: 10px;}
 @media screen and (max-width:500px) {
 
 .main_pc {position: relative; width:100%;}
+.slide1 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:700px; position: relative;}
+.slide2 {
+  background: url(../img/back8.jpg) no-repeat center ;
+  background-size: cover; height:700px; position: relative;}
+.slide3 {
+  background: url(../img/back312.png) no-repeat center ;
+  background-size: cover; height:700px; position: relative;}
 
 .message {position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%)}
 .message p {font-size: 35px;  color:brown;
