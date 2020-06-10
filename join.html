@@ -29,7 +29,7 @@
         <div class="header_cont cf">
 					<ul class="util">
             <li><a href="#none">Log in</a></li>
-            <li><a href="join2.html">Join</a></li>
+            <li><a href="join.html">Join</a></li>
           </ul>
        <nav>
          <ul class="depth1 cf">
@@ -80,12 +80,12 @@
                            <span class="ico_space"> @ </span>
                            <input type="text" id="edomain" name="edomain" required disabled>
                            <select name="edomain_opt" id="edomain_opt">
-                           <option>--이메일선택--</option>
+                           <option value="noselect">--이메일선택--</option>
                            <option value="naver.com">naver.com</option>
                            <option value="daum.net">daum.net</option>
                            <option value="nate.com">nate.com</option>
                            <option value="gmail.com">gmail.com</option>
-                           <option value="">직접입력</option></select>
+                           <option value="self">직접입력</option></select>
                        </div>
                    </li>
                      <li class="cf">
@@ -156,5 +156,18 @@
     </div>
     </div>
     <script src="js/myscript.js"></script>
+    <script>
+      $('#edomain_opt').change(function(){
+		 $('#edomain_opt option:selected').each(function(){
+			 if (  ( $(this).val() !='noselect') && ( $(this).val() !='self') ) {
+				   $('#edomain').val( $(this).val())
+			 } else if ( $(this).val() == 'noselect') {
+                   $('#edomain').val('').attr({disabled:true})
+			 } else {
+				   $('#edomain').val('').attr({disabled:false})
+			 }
+		 })
+	  })
+	</script>
 </body>
 </html>
