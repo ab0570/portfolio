@@ -170,14 +170,28 @@ top:-40px; right:-20px; background: none; border: none; cursor: url(../img/curso
   background-size: cover; height:970px; position: relative;}
 
 .message {position: absolute; top: 52%; left:10%; transform: translateY(-50%)}
-.message p {font-size: 80px;  color:brown;
+.message .text1 p {font-size: 80px;  color:brown;
   font-family: 'Merriweather', serif; }
-.main_pc .message p:nth-child(2) {margin-left: 100px; padding-top: 15px;}
-.main_pc .message p:nth-child(3) {margin-left: 200px; padding-top: 28px;}
+.main_pc .message .text1 p:nth-child(2) {margin-left: 100px; padding-top: 15px;}
+.main_pc .message .text1 p:nth-child(3) {margin-left: 200px; padding-top: 28px;}
 
-.slick-active .message p:nth-child(1) {animation:flipInX 1s both 1s;}
-.slick-active .message p:nth-child(2) {animation:lightSpeedIn 2s both 2s;}
-.slick-active .message p:nth-child(3) {animation:fadeInUp 1.5s both 1.5s;}
+.slick-active .message .text1 p:nth-child(1) {animation:flipInX 1s both 1s;}
+.slick-active .message .text1 p:nth-child(2) {animation:lightSpeedIn 2s both 2s;}
+.slick-active .message .text1 p:nth-child(3) {animation:fadeInUp 1.5s both 1.5s;}
+
+.slick-active .message .text2 {background: #000; width: 300px; height: 300px;
+  border-radius: 50%; opacity: 0.4; position: absolute; top:0%; left:0%; 
+transform: translate(-20%,-70%);}
+.message .text2 p {color: #fff; font-family: 'Raleway', 'sans-serif'; 
+  font-weight: bold; text-align: center;}
+.main_pc .message .text2 p:nth-child(1) {font-size: 30px; margin-top: 80px;}
+.main_pc .message .text2 p:nth-child(2) {font-size: 26px; 
+   padding: 20px 0px 30px 0px; }
+.main_pc .message .text2 p:nth-child(3) {font-size: 26px; padding: 20px;
+  border-top: 1px solid #fff;  margin:10px 35px}
+.main_pc .message .text2 p:nth-child(3):hover {color:red; }
+
+
 
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
