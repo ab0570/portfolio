@@ -7,10 +7,10 @@ body,html,#wrap {height: auto;}
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:900px; position: relative;}
 .slide2 {
-  background: url(../img/back8.jpg) no-repeat center ;
+  background: url(../img/back83.jpg) no-repeat center ;
   background-size: cover; height:900px; position: relative;}
 .slide3 {
-  background: url(../img/back83.jpg) no-repeat center ;
+  background: url(../img/back8.jpg) no-repeat center ;
   background-size: cover; height:900px; position: relative;}
 
 .message {position: absolute; top: 49%; left:10%; transform: translateY(-50%)}
@@ -184,10 +184,10 @@ padding-top: 30px;}
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:850px; position: relative;}
 .slide2 {
-  background: url(../img/back8.jpg) no-repeat center ;
+  background: url(../img/back83.jpg) no-repeat center ;
   background-size: cover; height:850px; position: relative;}
 .slide3 {
-  background: url(../img/back83.jpg) no-repeat center ;
+  background: url(../img/back8.jpg) no-repeat center ;
   background-size: cover; height:850px; position: relative;}
 
 .message {position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%)}
@@ -305,10 +305,10 @@ font-family:'Raleway', 'sans-serif'; border-radius: 10px;}
   background: url(../img/back312.png) no-repeat center ;
   background-size: cover; height:700px; position: relative;}
 .slide2 {
-  background: url(../img/back8.jpg) no-repeat center ;
+  background: url(../img/back83.jpg) no-repeat center ;
   background-size: cover; height:700px; position: relative;}
 .slide3 {
-  background: url(../img/back83.jpg) no-repeat center ;
+  background: url(../img/back8.jpg) no-repeat center ;
   background-size: cover; height:700px; position: relative;}
 
 .message {position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%)}
