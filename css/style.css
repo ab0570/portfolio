@@ -19,10 +19,9 @@ body,html,#wrap {height: auto;}
 .main_pc .message .text1 p:nth-child(2) {margin-left: 100px; padding-top: 15px;}
 .main_pc .message .text1 p:nth-child(3) {margin-left: 200px; padding-top: 28px;}
 
-.message .text2 {background: #000; width: 300px; height: 300px;
-  border-radius: 50%; opacity: 0.4; position: static; top:0%; left:0%; 
+.message .text2 {background: rgb(246, 128, 59); width: 300px; height: 300px;
+  border-radius: 50%; opacity: 0.5; position: static; top:0%; left:0%; 
 transform: translate(0%,0%);}
-
 .slide2 {position: relative;}
 .slide2 .message { 
   position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%) 
@@ -213,9 +212,12 @@ padding-top: 30px;}
 .main_pc .message .text1 p:nth-child(2) {margin-left:0px; padding:30px;}
 .main_pc .message .text1 p:nth-child(3) {margin-left:0px; padding:10px;}
 
-.message .text2 {background: #000; width: 300px; height: 300px;
-  border-radius: 50%; opacity: 0.4; position: absolute; top:50%; left:50%; 
-transform: translate(-50%,-50%);}
+.message .text2 {background:rgb(246, 128, 59); width: 300px; height: 300px;
+  border-radius: 50%; opacity: 0.5; position: static; top:0%; left:0%; 
+transform: translate(0%,0%);}
+.slide2 {position: relative;}
+.slide2 .message { 
+  position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%) }
 .message .text2 p {color: #fff; font-family: 'Raleway', 'sans-serif'; 
   font-weight: bold; text-align: center;}
 .main_pc .message .text2 p:nth-child(1) {font-size: 30px; margin-top: 80px;}
@@ -224,6 +226,7 @@ transform: translate(-50%,-50%);}
 .main_pc .message .text2 p:nth-child(3) {font-size: 26px; padding: 20px;
   border-top: 1px solid #fff;  margin:10px 35px}
 .main_pc .message .text2 p:nth-child(3):hover {color:red; }
+
 
 h1 {text-align: center; font-size: 60px; padding: 30px;
  color:#fff; text-shadow: 2px 2px 5px white,-2px -2px 5px gray;
@@ -346,9 +349,12 @@ font-family:'Raleway', 'sans-serif'; border-radius: 10px;}
 .main_pc .message .text1 p:nth-child(2) {margin-left:0px; padding:30px;}
 .main_pc .message .text1 p:nth-child(3) {margin-left:0px; padding: 10px;}
 
-.message .text2 {background: #000; width: 300px; height: 300px;
-  border-radius: 50%; opacity: 0.4; position: absolute; top:0%; left:0%; 
-transform: translate(-20%,-70%);}
+.message .text2 {background: rgb(246, 128, 59); width: 300px; height: 300px;
+  border-radius: 50%; opacity: 0.5; position: static; top:0%; left:0%; 
+transform: translate(0%,0%);}
+.slide2 {position: relative;}
+.slide2 .message { 
+  position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%) }
 .message .text2 p {color: #fff; font-family: 'Raleway', 'sans-serif'; 
   font-weight: bold; text-align: center;}
 .main_pc .message .text2 p:nth-child(1) {font-size: 30px; margin-top: 80px;}
